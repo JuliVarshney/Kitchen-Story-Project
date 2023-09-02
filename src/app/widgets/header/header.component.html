@@ -1,0 +1,43 @@
+<header>
+    <div class="container">
+       <!-- <a href="#" routerLink="/" class="logo">Kitchen Story</a> -->
+
+      <a href="#" class="logo" routerLink="/home">
+            <img class="img-fluid" src="../../assets/images/Kitchen Story Logo 4.jpg" alt="Kitchen Story Logo">
+      </a>
+      <nav>
+        <ul>
+          <li>
+            <p><a routerLink="/login">Login</a></p>
+          </li>
+          <!-- <div *ngIf="isLoggedIn && newUser"> --> <!-- couldn't get it working in time-->
+              <!-- Once user is logged in, present the user menu... -->
+             <!-- <li class="menu-container">
+                 <a routerLink="/dashboard">User Name</a>
+                  <div class="submenu">
+                    <a routerLink="/profile">Profile</a>
+                    <a routerLink="/orders">Orders</a>
+                    <a>Logout</a>
+                  </div> --> <!-- submenu -->
+              <!-- </li> -->
+          <!-- </div> --> <!-- *ngIf -->
+
+          <li>
+            <p><a href="#" routerLink="/cart-page">Cart <span *ngIf="cartQuantity">{{cartQuantity}}</span></a></p>
+          </li>
+          <!-- <div *ngIf="newUser.isAdmin"> --> <!-- couldn't get it working in time-->
+            <li class="menu-container">
+             <p> <a >Admin Login</a></p>
+              <div class="submenu">
+                 <p> <a routerLink="/add">Add New Product</a></p>
+                 <p><a routerLink="/remove">Remove Product</a></p>
+                  
+                 <p><a routerLink="/register">Logout</a></p>
+              </div>
+            </li>
+          <!-- </div> --> <!-- *ngIf -->
+        </ul>
+        </nav>
+    </div>
+</header>
+

@@ -1,0 +1,60 @@
+.container{
+    display: block;
+    margin: 2rem;
+    margin-top: 2rem;
+    
+  }
+  
+  h2{
+    
+    color: #2bc625; /* #620000 */
+    text-shadow: 1px 1px rgb(98,0,0);
+    text-align: center;
+  }
+  
+  .form-group p{
+    font-style: italic;
+    color: lightpink; /* #620000 */
+  }
+  
+  .form-group{
+    margin: 1rem;
+  }
+  
+  label{
+    color: rgb(83, 79, 79);
+  }
+  
+  input[type="radio"] {
+    display: flex;
+  }
+  
+  input[type="radio"]:checked{
+    color: #2bc625;
+    border: none;
+  }
+  
+  div button{
+    font-size: 1rem;
+    background-color: #2bc625; /* #e72929 */
+    color: white; /* white */
+    border-radius: 10rem;
+    padding: .7rem 1rem;
+    margin: 1rem;
+    opacity: .8;
+    outline: none;
+    text-align: center;
+  }
+  
+  div button:hover{
+    opacity: 1;
+    cursor: pointer;
+  }
+  .card {
+    background-color: #f7ebec;
+    max-width: 700px;
+    margin: 10px auto;
+    padding: 20px;
+    box-shadow: 0 4px 4px 4px #2bc625;
+    text-align: left;
+  }

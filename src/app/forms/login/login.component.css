@@ -1,0 +1,39 @@
+h2{
+  color: #981e1a; /* #e72929 */
+}
+
+p, form{
+  color: rgb(69, 66, 66); /* #e72929 */
+}
+span{
+  color: whitesmoke;
+} 
+
+.welcome{
+  color: #2bc625;
+}
+
+div button{
+  font-size: 15px;
+  background-color: #2bc625; /* #e72929 */
+  color: white; /* white */
+  border-radius: 10rem;
+  padding: .7rem 1rem;
+  margin: 1rem;
+  opacity: .8;
+  outline: none;
+  text-align: center;
+}
+
+div button:hover{
+  opacity: 1;
+  cursor: pointer;
+}
+.card {
+  background-color: #f7ebec;
+  max-width: 450px;
+  margin: 40px auto;
+  padding: 20px;
+  box-shadow: 0 4px 4px 4px #2bc625;
+  text-align: left;
+}
